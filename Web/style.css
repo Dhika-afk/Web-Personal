@@ -158,12 +158,36 @@
     padding-top: 10px;
 }
 
+/* Portofolio */
+#portofolio-page{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 25%;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.gambar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.gambar img{
+    width: 360px;
+    height: 300px;
+    border-radius: 10px;
+}
+
 /* Contact */
 #contact-page{
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    color: black;
+    color: white;
+    background-color: black;
+    padding-bottom: 20%;
 }
 
 .form{
@@ -179,8 +203,8 @@
     width: 30%;
     border: none;
     outline: none;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 #pesan{
@@ -189,8 +213,8 @@
     margin: 10px;
     border: none;
     outline: none;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 #send{
@@ -199,8 +223,8 @@
     margin: 20px;
     border: none;
     outline: none;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 #send:hover{
